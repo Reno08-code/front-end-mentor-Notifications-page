@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+<link rel="stylesheet" href="index.css">
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <section class="notif_box">
+          <h1 class="title">Notifications</h1>
+          <span id="notifes"></span>
+        </section>
+
+        <p id="mark_all">Mark all as read</p>
+      </header>
+      <main>
+        <article class="notif_card unread">
+          <img src="./assets/images/avatar-mark-webber.webp" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>Mark Webber </strong> reacted to your recent post
+              <b>My first tournament today!</b>
+            </p>
+            <p class="time">1m ago</p>
+          </div>
+        </article>
+        <article class="notif_card unread">
+          <img src="./assets/images/avatar-angela-gray.webp" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>Angela Gray </strong> followed you
+            </p>
+            <p class="time">5m ago</p>
+          </div>
+        </article>
+        <article class="notif_card unread">
+          <img src="./assets/images/avatar-jacob-thompson.webp" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>Jacob Thompson </strong> has joined your group
+              <a href="">Chess Club</a>
+            </p>
+            <p class="time">1day ago</p>
+          </div>
+        </article>
+        <article class="notif_card">
+          <div class="message_card">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt="avatar"
+            />
+            <div class="description">
+              <p class="user_activity">
+                <strong>Rizky Hasanuddin</strong> sent you a private message
+              </p>
+              <p class="time">5 days ago</p>
+            </div>
+
+          </div>
+        </article>
+        <div class="message">
+          <p>
+            Hello, thanks for setting up the Chess Club. I've been a member
+            for a few weeks now and I'm already having lots of fun and
+            improving my game.
+          </p>
+        </div>
+        <article class="notif_card">
+          <img src="./assets/images/avatar-kimberly-smith.webp" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>Kimberly Smith</strong> commented on your picture
+              
+            </p>
+            <p class="time">1week ago</p>
+          </div>
+          <img class="chess" src="./assets/images/image-chess.webp" alt="">
+        </article>
+        <article class="notif_card">
+          <img src="./assets/images/avatar-nathan-peterson.webp" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>Nathan Peterson </strong> reacted to your recent post
+              <b>5 end-game strategies to increase your win rate</b>
+            </p>
+            <p class="time">2weeks ago</p>
+          </div>
+        </article>
+        <article class="notif_card">
+          <img src="./assets/images/avatar-anna-kim.webp">
+          <div class="description">
+            <p class="user_activity">
+              <strong>Anna Kim</strong> left the group <a href="">Chess Club</a> 2 weeks ago
+            
+            </p>
+            <p class="time">2weeks ago</p>
+          </div>
+        </article>
+      </main>
+    </div>
+   <script src="index.js"></script>
+  </body>
+</html>
